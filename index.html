@@ -5,13 +5,13 @@
   <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
   <body style="margin : 0px; overflow: hidden;">
     <a-scene embedded arjs>
-      <a-marker type="pattern" preset="custom" url="https://punith13.github.io/arrow3.gltf">
+      <a-marker-camera type="pattern" preset="custom" url="https://punith13.github.io/arrow3.gltf">
         <a-entity
           position="0 0 0"
           scale="0.5 0.5 0.5"
           gltf-model="https://punith13.github.io/arrow.gltf"
         ></a-entity>
-      </a-marker>
+      </a-marker-camera>
       <a-entity camera></a-entity>
       
     </a-scene>
