@@ -2,7 +2,7 @@
 <html>
   <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
   <!-- we import arjs version without NFT but with marker + location based support -->
-  <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+  <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
   <body style="margin : 0px; overflow: hidden;">
     <a-scene embedded arjs>
       <a-marker preset="kanji">
@@ -21,7 +21,7 @@
         ></a-entity>
       </a-marker>
 
-      <a-marker type="pattern" patternUrl="https://github.com/AR-js-org/AR.js/blob/master/three.js/examples/marker-training/examples/pattern-files/pattern-letterA.patt">
+      <a-marker type="pattern" url="https://github.com/AR-js-org/AR.js/blob/master/three.js/examples/marker-training/examples/pattern-files/pattern-letterA.patt">
         <a-entity
           position="0 0 0"
           scale="0.5 0.5 0.5"
@@ -33,7 +33,7 @@
       
     </a-scene>
     <script>
-      alert('A pattern url loaded with arrow 2')
+      alert('A pattern url loaded with arrow 2 new url')
     </script>
   </body>
 </html>
